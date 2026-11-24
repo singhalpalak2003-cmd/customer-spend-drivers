@@ -42,25 +42,8 @@ outputs/     charts, model tables, query results
 .gitignore
 ```
 
-## How to run
-1. Put `marketing_campaign.csv` in `data/` (or use the Kaggle input folder).
-2. Install: `pip install pandas numpy matplotlib seaborn scipy statsmodels`.
-3. Open `notebooks/Customer_Spend_Drivers_Analysis.ipynb` and run all cells top to bottom (the SQL part builds an in-memory SQLite database).
-4. To run SQL on its own: execute `sql/01_schema.sql`, load the CSV into the three tables, then run `sql/02_queries.sql`.
-
 ## Links
 - Kaggle notebook: [add link]
 - Word report: Palak_Singhal_26-PGDM083_Report.docx
 
-## Suggested commit plan (commit as you work, over at least 6 days)
-1. Load dataset and inspect rows, columns and types
-2. Create Total_Spend, Age and Children variables
-3. Drop duplicates and fix impossible age and income values
-4. Flag outliers with IQR rule and add group summaries
-5. Add distribution and group comparison charts
-6. Add correlation heatmap and income vs spend chart
-7. Build multiple regression without interaction
-8. Add interaction model and model comparison table
-9. Add SQL schema and basic queries
-10. Add joins and export query result to Python
-11. Write recommendations and finalise README
+
