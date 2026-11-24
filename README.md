@@ -43,7 +43,7 @@ outputs/     charts, model tables, query results
 ```
 
 ## Links
-- Kaggle notebook: [add link]
+- Kaggle notebook: https://www.kaggle.com/datasets/palaksinghal16/customer-spend-drivers
 - Word report: Palak_Singhal_26-PGDM083_Report.docx
 
 
